@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>猿密聊天室</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>猿密聊天室</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="logo">🦍 猿密聊天室</div>
-  <div id="chat-box">
-    <p>歡迎來到猿密聊天室！</p>
-  </div>
+    <div id="chat-container">
+        <h1>猿密聊天室</h1>
+        <div id="messages"></div>
+        <input type="text" id="input" placeholder="輸入訊息..." />
+        <button onclick="sendMessage()">送出</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

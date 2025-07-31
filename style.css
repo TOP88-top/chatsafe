@@ -1,18 +1,23 @@
 body {
-  background-color: #0f0f0f;
-  color: #e0e0e0;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 20px;
+    font-family: sans-serif;
+    background: #121212;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
 }
-.logo {
-  font-size: 28px;
-  color: #00ffaa;
-  margin-bottom: 20px;
+#chat-container {
+    width: 100%;
+    max-width: 500px;
 }
-#chat-box {
-  background: #1a1a1a;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px #00ffaa66;
+#messages {
+    border: 1px solid #444;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+input, button {
+    padding: 8px;
+    font-size: 1em;
 }
